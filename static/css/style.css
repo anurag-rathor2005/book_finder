@@ -22,7 +22,7 @@ body{
         width: 40vh;
                                     }
 
- @media only screen and (max-width:320px){
+ @media only screen and (max-width:576px){
 .wow{
       width: 50vh;
                     }
@@ -41,13 +41,13 @@ input[type="text"] {
              
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:576px){
 .form-control{
               width: 120% ;
                             }
                                 }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:576px){
 .wow{
       width: 50vh;
                     }
@@ -64,7 +64,7 @@ input[type="text"] {
       cursor: pointer;
                            }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:576px){
 .btn{
      margin-bottom: 10px;
                           }
