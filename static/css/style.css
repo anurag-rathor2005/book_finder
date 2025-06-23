@@ -1,0 +1,79 @@
+body{
+       background: url(/static/img/bk.5.jpeg) center fixed;
+      font-family: Arial, sans-serif;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+                                }
+
+.wow{
+      background-image: url(/static/img/bk.6.jpg);
+      background-position: center;
+      height: 50vh;
+      width: 55vw;
+      background-repeat: no-repeat;
+      text-align: center;
+                                      }
+
+.wow h1{
+        font-weight: 800;
+        border-bottom: 4px solid black;
+        width: 40vh;
+                                    }
+
+ @media only screen and (max-width:320px){
+.wow{
+      width: 50vh;
+                    }
+}
+
+input[type="text"] {
+                    width: 70%;
+                    padding: 10px;
+                    font-size: 16px;
+                    border: 1px solid #ccc;
+                    border-radius: 12px;
+                                                }
+
+.form-control{
+              width:100% ;
+             
+}
+
+@media only screen and (max-width:320px){
+.form-control{
+              width: 120% ;
+                            }
+                                }
+
+@media only screen and (max-width:320px){
+.wow{
+      width: 50vh;
+                    }
+                        }
+
+.btn{
+      padding: 10px 20px;
+      margin-left: 10px;
+      font-size: 16px;
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+                           }
+
+@media only screen and (max-width:320px){
+.btn{
+     margin-bottom: 10px;
+                          }
+                            }
+
+.btn:hover {
+            background-color: black;
+            color: #ccc;
+                             }
+
+
+

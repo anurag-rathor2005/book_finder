@@ -1,0 +1,2 @@
+
+echo "web: gunicorn book_finder.wsgi"
